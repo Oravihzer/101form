@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>101Form</title>
+    <h1>101 Form- New Worker Card Profile</h1>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mvoyelyq" method="post">101Form</form>
+    <div>
+      This form shall be filled out by each employee at the beginning of his
+      employment, as well as at the beginning of each tax year. This form is a
+      reference for the employer to provide tax relief and to prepare tax
+      returns in the calculation of the employee's salary
+    </div>
+    <br />
+    <fieldset>
+      <legend>Employer information</legend>
+      <label for="employername"> Full Name:</label>
+      <input type="text" id="employername" name="employername" />
+      <label for="employeradress"> Adress:</label>
+      <input type="text" id="employeradress" name="employeradress" />
+      <label for="employerphone"> Phone Nmber:</label>
+      <input type="text" id="employerphone" name="employerphone" />
+      <label for="employerdeductions">Deductions file:</label>
+      <input type="file" id="employerdeductions" name="employerdeductions" />
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Employee information</legend>
+      <label for="Employeeid">Id Number:</label>
+      <input type="text" id="Employeeid" name="Employeeid" />
+      <label for="Employeefullname">Full Name:</label>
+      <input type="text" id="Employeefullname" name="Employeefullname" />
+      <label for="Employeedob">Date of Birth::</label>
+      <input type="date" id="Employeedob" name="Employeedob" />
+      <label for="Employeedoe">Date of immigratin:</label>
+      <input type="date" id="Employeedoe" name="Employeedoe" />
+      <br />
+      <br />
+      <label for="employeeadress"> Adress:</label>
+      <input type="text" id="employeeadress" name="employeeadress" />
+      <label for="zipcode">Zip Code:</label>
+      <input type="text" name="zipcode" id="zipcode" />
+      <label for="phonenum">Phone Number:</label>
+      <input type="text" name="phonenum" id="phonenum" />
+      <label for="city">City/Neighborhood:</label>
+      <input type="text" id="city" name="city" />
+      <br />
+      <br />
+      <label for="gender">Gender:</label>
+      <input type="radio" value="male" name="gender" checked />Male
+      <input type="radio" value="female" name="gender" />Female
+      <br />
+      <br />
+      <label for="martial">Marital Status:</label>
+      <input type="radio" name="martial" value="single" checked />Single
+      <input type="radio" name="martial" value="married" />Married
+      <input type="radio" name="martial" value="divorced" />Divorced
+      <input type="radio" name="martial" value="widower " />Widower
+      <br />
+      <br />
+      <label for="Israeli-resident">Israeli-resident:</label>
+      <input type="radio" name="Israeli-resident" value="yes" checked />Yes
+      <input type="radio" name="Israeli-resident" value="no" />No
+    </fieldset>
+    <h2>Details of children who have not yet turned 19 in the tax year:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Id</th>
+          <th>Date Of Birth</th>
+          <th>Phone number</th>
+        </tr>
+        <tr>
+          <th>1:</th>
+          <th><input type="text" /></th>
+          <th><input type="text" /></th>
+          <th><input type="text" /></th>
+        </tr>
+        <tr>
+          <th>2:</th>
+          <th><input type="text" /></th>
+          <th><input type="text" /></th>
+          <th><input type="text" /></th>
+        </tr>
+        <tr>
+          <th>3:</th>
+          <th><input type="text" /></th>
+          <th><input type="text" /></th>
+          <th><input type="text" /></th>
+        </tr>
+        <tr>
+          <th>4:</th>
+          <th><input type="text" /></th>
+          <th><input type="text" /></th>
+          <th><input type="text" /></th>
+        </tr>
+      </thead>
+    </table>
+    <br />
+    <br />
+    <fieldset>
+      <legend>Details of my income from this employer:</legend>
+      <h3>How i get Paid?:</h3>
+      <label for="income">Choose one Income:</label>
+      <br />
+      <input type="radio" name="income" value="monthly" checked />Monthly
+      <input type="radio" name="income" value="partly" />Partly
+      <input type="radio" name="income" value="allowance" />Allowance
+      <input type="radio" name="income" value="additional-salary" />Additional
+      salary <input type="radio" name="income" value="salary" />Salary
+    </fieldset>
+    <br />
+    <br />
+    <fieldset>
+      <legend>Details about the spouse</legend>
+      <label for="partnerid">Id:</label>
+      <input type="text" name="partnerid" id="partnerid" />
+      <label for="surname">Surname:</label>
+      <input type="text" name="surname" id="surname" />
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname" />
+      <label for="partnerdob">Date Of Birth:</label>
+      <input type="date" id="parnterdob" name="partnerdob" />
+      <label for="immigrationpartner">Date of immigratin:</label>
+      <input type="date" id="immigrationpartner" name="immigrationpartner" />
+    </fieldset>
+    <br />
+    <br />
+    <fieldset>
+      <legend>Details of other income:</legend>
+      <label for="otherincomes">Choose One of the options:</label>
+      <br />
+      <input
+        type="radio"
+        name="otherincomes"
+        value="I have no additional income"
+        checked
+      />I have no additional income
+      <br />
+      <input type="radio" name="otherincomes" value="partly" />Partly
+      <br />
+      <input type="radio" name="otherincomes" value="allowance" />Allowance
+      <br />
+      <input type="radio" name="otherincomes" value="i-have-other-incmes" />i
+      have other incomes
+      <br />
+      <input type="radio" name="otherincomes" value="other-source" />Other
+      source
+      <br />
+      <input type="radio" name="otherincomes" value="daily-income" />Daily
+      Income
+    </fieldset>
+    <br />
+    <br />
+    <input type="reset" value="Reset!" /><br />
+    <input type="submit" value="Send!" /><br />
+  </body>
+</html>
